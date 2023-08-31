@@ -33,11 +33,10 @@ class UserService
       list_users.each do |user|
         users << User.new(user.transform_keys(&:to_sym))
       end
-      users.map!(&:to_string)
+      users
     else
       puts "Error: #{res.message}"
     end
-    users
   end
 
   def create_user(user)
@@ -79,21 +78,21 @@ class UserService
 
   def export_doc_file(file_path, data)
   	document = File.new(file_path, "w+")
-  	data.each {|user| document.puts user}
+  	data.each {|user| document.puts user.to_string}
   end
 
-  def export_zip_file(folder_path,file_path, data)
-  	Zip::File.open(folder_path, Zip::File::CREATE) do |zip|
-	zip.add(file_path, file_path)
-  	end
-  	puts "Completed export doc file and add it to zip file"
-  end
+  
 end
 
 service = UserService.new
-# service.get_all_users
-# service.get_users_active
 
+#print all users/ user with conditions
+data = service.get_users_active
+data = service.get_all_users
+data.each {|user| puts user.to_string}
+
+
+#create new user
 User.new({ created_at: Time.now,
            name: 'Dang Thi Bich Thuy',
            avatar: 'https://duhocvietglobal.com/wp-content/uploads/2018/12/dat-nuoc-va-con-nguoi-anh-quoc.jpg',
@@ -102,10 +101,10 @@ User.new({ created_at: Time.now,
 
 # service.create_user(user)
 
+#update user info
 # service.update_user(75, edit_info)
+
+#delete user
 # service.delete_user(67)
 
-data = service.get_all_users
 
-service.export_doc_file("users-list.docx", data)
-service.export_zip_file('users.zip', "users-list.docx", data)
