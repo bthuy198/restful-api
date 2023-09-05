@@ -77,22 +77,20 @@ class UserService
   end
 
   def export_doc_file(file_path, data)
-  	document = File.new(file_path, "w+")
-  	data.each {|user| document.puts user.to_string}
+    document = File.new(file_path, 'w+')
+    data.each { |user| document.puts user.to_string }
   end
-
-  
 end
 
 service = UserService.new
 
-#print all users/ user with conditions
+# print all users/ user with conditions
 # data = service.get_users_active
-data = service.get_all_users
-data.each {|user| puts user.to_string}
+service.get_all_users
+# data.each {|user| puts user.to_string}
 
 
-#create new user
+# create new user
 User.new({ created_at: Time.now,
            name: 'Dang Thi Bich Thuy',
            avatar: 'https://duhocvietglobal.com/wp-content/uploads/2018/12/dat-nuoc-va-con-nguoi-anh-quoc.jpg',
@@ -101,10 +99,11 @@ User.new({ created_at: Time.now,
 
 # service.create_user(user)
 
-#update user info
+# update user info
 # service.update_user(75, edit_info)
 
-#delete user
+# delete user
 # service.delete_user(67)
 
-
+# export file csv
+# service.export_doc_file("users.csv", data)

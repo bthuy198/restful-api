@@ -1,0 +1,16 @@
+ID,Name,Avatar,Sex,Active,Created At
+4,abc,https://duhocvietglobal.com/wp-content/uploads/2018/12/dat-nuoc-va-con-nguoi-anh-quoc.jpg,male,FALSE,2023-05-30 14:37:39 +0700
+5,abc,https://duhocvietglobal.com/wp-content/uploads/2018/12/dat-nuoc-va-con-nguoi-anh-quoc.jpg,male,TRUE,2023-05-30 14:37:39 +0700
+28,Xuan Duc,https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTk2NzY3MjA5ODc0MjY5ODI2/top-10-cutest-cat-photos-of-all-time.jpg,male,TRUE,2023-06-01T06:51:41.104Z
+29,Xuan Duc,https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTk2NzY3MjA5ODc0MjY5ODI2/top-10-cutest-cat-photos-of-all-time.jpg,male,FALSE,2023-05-31T19:04:33.831Z
+31,Ho Van Nam,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Person_icon_BLACK-01.svg/1924px-Person_icon_BLACK-01.svg.png,male,FALSE,2023-08-29 21:07:36 +0700
+32,Ho Van Nam,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Person_icon_BLACK-01.svg/1924px-Person_icon_BLACK-01.svg.png,male,TRUE,2023-08-29 21:12:23 +0700
+33,test,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Person_icon_BLACK-01.svg/1924px-Person_icon_BLACK-01.svg.png,female,TRUE,2023-08-29 21:38:25 +0700
+34,Dang Thi Bich Thuy,https://duhocvietglobal.com/wp-content/uploads/2018/12/dat-nuoc-va-con-nguoi-anh-quoc.jpg,female,TRUE,2023-08-29 21:46:44 +0700
+35,Dang Thi Bich Thuy,https://duhocvietglobal.com/wp-content/uploads/2018/12/dat-nuoc-va-con-nguoi-anh-quoc.jpg,female,TRUE,2023-08-29 21:56:41 +0700
+37,Nguyen Bao Anh,https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg,Male,FALSE,2023-08-29 21:57:58 +0700
+38,Nguyen Bao Anh,https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg,Male,TRUE,2023-08-29 22:31:14 +0700
+39,test2,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Person_icon_BLACK-01.svg/1924px-Person_icon_BLACK-01.svg.png,male,TRUE,2023-08-30 08:39:47 +0700
+40,Nguyen Bao Anh,https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg,Male,TRUE,2023-08-30 08:39:54 +0700
+42,Han Ngo,https://your-avatar-link.com,male,TRUE,2023-08-30T09:02:47.235Z
+43,Han Ngo,https://duhocvietglobal.com/wp-content/uploads/2018/12/dat-nuoc-va-con-nguoi-anh-quoc.jpg,male,TRUE,2023-08-30 09:04:28 +0700

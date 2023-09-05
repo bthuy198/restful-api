@@ -1,6 +1,8 @@
-require "google_drive"
+# frozen_string_literal: true
 
-session = GoogleDrive::Session.from_config("config.json")
+require 'google_drive'
+
+session = GoogleDrive::Session.from_config('config.json')
 
 # Uploads a local file.
-session.upload_from_file("users.zip", "users.zip", convert: false)
+session.upload_from_file('users.zip', 'users.zip', convert: false)
