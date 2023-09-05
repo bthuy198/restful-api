@@ -17,6 +17,10 @@ class User
     "ID: #{@id}\nName: #{@name}\nAvatar: #{@avatar}\nSex: #{@sex}\nActive: #{@active}\nCreated At: #{@created_at}\n"
   end
 
+  def to_arr
+    [@id, @name, @avatar, @sex, @active, @created_at]
+  end
+
   def as_json(_options = {})
     {
       id: @id,

@@ -18,7 +18,7 @@ class UserService
       list_users.each do |user|
         users << User.new(user.transform_keys(&:to_sym))
       end
-      users.each { |user| puts user.to_string }
+      # users.each { |user| puts user.to_string }
     else
       puts "Error: #{res.message}"
     end
@@ -87,7 +87,7 @@ end
 service = UserService.new
 
 #print all users/ user with conditions
-data = service.get_users_active
+# data = service.get_users_active
 data = service.get_all_users
 data.each {|user| puts user.to_string}
 

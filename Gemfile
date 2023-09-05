@@ -11,3 +11,5 @@ gem 'docx'
 gem 'caracal', '~> 1.4', '>= 1.4.1'
 
 gem 'htmltoword'
+
+gem 'google_drive'
